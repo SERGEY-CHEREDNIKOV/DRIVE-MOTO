@@ -74,16 +74,10 @@
     align-items: center;
     min-height: 53px;
     background-color: $background-element-color;
-    &__item {
-        position: relative;
-    }
     &__link {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        position: relative;
         font-weight: 400;
-        transition: font-weight .3s ease-in;
+        transition: all .3s ease-in;
         padding: 15px 0 14px;
         color: $main-text-color;
         opacity: 0.8;
